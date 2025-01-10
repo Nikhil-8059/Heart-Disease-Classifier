@@ -56,6 +56,6 @@ The dataset consists of **14 attributes** and the target variable. Below is a de
 ---
 
 ## Acknowledgments
-The dataset is sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). Special thanks to the contributors for providing this valuable resource.As the dataset was insufficient for learning purposes I had doubled it.
+The dataset is sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). Special thanks to the contributors for providing this valuable resource.As the dataset was insufficient, for learning purposes I had doubled it.
 
  
