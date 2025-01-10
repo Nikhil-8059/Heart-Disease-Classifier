@@ -1,13 +1,12 @@
 # Heart-Disease-Classifier
 
- Overview
+ # Overview
  The data science lifecycle is designed for big data issues and the data science projects.
  Generally, the data science project consists of seven steps which are problem definition, data
  collection, data preparation, data exploration, data modeling, model evaluation and model
  deployment.
- In this project, I will go through these steps in order to build a heart disease classifier. To
- build the heart disease classifier by using UCI heart disease) dataset.
- Dataset
+
+ # Dataset
  The dataset has 14 attributes:
  age: age in years.
  sex: sex (1 = male; 0 = female).
