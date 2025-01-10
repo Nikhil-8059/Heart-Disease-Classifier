@@ -1,26 +1,61 @@
 # Heart-Disease-Classifier
 
- # Overview
- The data science lifecycle is designed for big data issues and the data science projects.
- Generally, the data science project consists of seven steps which are problem definition, data
- collection, data preparation, data exploration, data modeling, model evaluation and model
- deployment.
+This project follows the **Data Science Lifecycle**, a process designed for addressing big data challenges through structured steps. By applying these steps, we aim to build a machine learning model to classify heart disease using the **UCI Heart Disease Dataset**.
 
- # Dataset
- The dataset has 14 attributes:
- age: age in years.
- sex: sex (1 = male; 0 = female).
- cp: chest pain type (Value 0: typical angina; Value 1: atypical angina; Value 2: non anginal pain; Value 3: asymptomatic).
- trestbps: resting blood pressure in mm Hg on admission to the hospital.
- chol: serum cholestoral in mg/dl.
- fbs: fasting blood sugar > 120 mg/dl (1 = true; 0 = false).
- restecg: resting electrocardiographic results (Value 0: normal; Value 1: having ST-T wave
- abnormality; Value 2: probable or definite left ventricular hypertrophy).
- thalach: maximum heart rate achieved.
- exang: exercise induced angina (1 = yes; 0 = no)
- oldpeak: ST depression induced by exercise relative to rest.
- slope: the slope of the peak exercise ST segment (Value 0: upsloping; Value 1: flat; Value 2: downsloping).
- ca: number of major vessels (0-3) colored by flourosopy.
- thal: thalassemia (3 = normal; 6 = fixed defect; 7 = reversable defect).
- target: heart disease (1 = no, 2 = yes)
+---
+
+## Data Science Lifecycle Overview
+The data science lifecycle consists of the following seven steps:
+1. **Problem Definition**: Define the objective and scope of the project.
+2. **Data Collection**: Gather the required dataset(s).
+3. **Data Preparation**: Clean and preprocess the data for analysis.
+4. **Data Exploration**: Conduct exploratory data analysis to uncover patterns and insights.
+5. **Data Modeling**: Build and train machine learning models.
+6. **Model Evaluation**: Assess model performance using metrics and validation techniques.
+7. **Model Deployment**: Deploy the model for practical use or integration.
+
+---
+
+## Project Objective
+In this project, we will:
+- **Build a Heart Disease Classifier**  
+- Use the **UCI Heart Disease Dataset** to predict the likelihood of heart disease based on patient data.
+
+---
+
+## Dataset Overview
+The dataset consists of **14 attributes** and the target variable. Below is a description of each attribute:
+
+| **Attribute** | **Description** |
+|---------------|------------------|
+| `age`         | Age in years. |
+| `sex`         | Sex (1 = male; 0 = female). |
+| `cp`          | Chest pain type:<br> - 0: Typical angina<br> - 1: Atypical angina<br> - 2: Non-anginal pain<br> - 3: Asymptomatic |
+| `trestbps`    | Resting blood pressure (mm Hg on admission to the hospital). |
+| `chol`        | Serum cholesterol (mg/dl). |
+| `fbs`         | Fasting blood sugar > 120 mg/dl (1 = true; 0 = false). |
+| `restecg`     | Resting electrocardiographic results:<br> - 0: Normal<br> - 1: ST-T wave abnormality<br> - 2: Left ventricular hypertrophy |
+| `thalach`     | Maximum heart rate achieved. |
+| `exang`       | Exercise-induced angina (1 = yes; 0 = no). |
+| `oldpeak`     | ST depression induced by exercise relative to rest. |
+| `slope`       | Slope of the peak exercise ST segment:<br> - 0: Upsloping<br> - 1: Flat<br> - 2: Downsloping |
+| `ca`          | Number of major vessels (0-3) colored by fluoroscopy. |
+| `thal`        | Thalassemia:<br> - 3: Normal<br> - 6: Fixed defect<br> - 7: Reversible defect |
+| `target`      | Heart disease status:<br> - 1: No heart disease<br> - 2: Presence of heart disease |
+
+---
+
+## Steps to Be Followed
+1. **Load the Dataset**: Import the UCI Heart Disease Dataset.
+2. **Data Cleaning and Preprocessing**: Handle missing values, scale features, and encode categorical variables.
+3. **Exploratory Data Analysis (EDA)**: Visualize relationships and correlations between variables.
+4. **Model Building**: Train classification models (e.g., Logistic Regression, Decision Trees).
+5. **Model Evaluation**: Use metrics like accuracy, precision, recall, and F1-score to evaluate performance.
+6. **Model Deployment**: Deploy the classifier for real-world use.
+
+---
+
+## Acknowledgments
+The dataset is sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). Special thanks to the contributors for providing this valuable resource.As the dataset was insufficient for learning purposes I had doubled it.
+
  
